@@ -6,7 +6,7 @@
     /* variables for dark mode */
     --dark-mode-primary-color: #ffffff;
     --dark-mode-darker-grey: rgb(247, 247, 247);
-    --dark-mode-light-grey: #D1D5DB;
+    --dark-mode-light-grey: #000000;
 }
 
 body {
@@ -43,13 +43,13 @@ link {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 8rem;
+    border-radius: 1rem;
     color: #000000;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 8rem;
+    border-radius: 1rem;
     border: 7px solid var(--primary-color);
 }
 
