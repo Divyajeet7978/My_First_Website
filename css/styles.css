@@ -4,8 +4,8 @@
     --dark-grey: #ffffff;
     --off-white: #F3F4F6;
     /* variables for dark mode */
-    --dark-mode-primary-color: #353639;
-    --dark-mode-darker-grey: #1F1F1F;
+    --dark-mode-primary-color: #ffffff;
+    --dark-mode-darker-grey: hsl(0, 3%, 77%);
     --dark-mode-light-grey: #D1D5DB;
 }
 
