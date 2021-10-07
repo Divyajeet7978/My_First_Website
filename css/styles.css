@@ -5,7 +5,7 @@
     --off-white: #F3F4F6;
     /* variables for dark mode */
     --dark-mode-primary-color: #ffffff;
-    --dark-mode-darker-grey: hsl(0, 3%, 77%);
+    --dark-mode-darker-grey: rgb(247, 247, 247);
     --dark-mode-light-grey: #D1D5DB;
 }
 
@@ -44,7 +44,7 @@ link {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 2.5rem;
-    color: white;
+    color: #000000;
 }
 
 .link-secondary {
@@ -71,14 +71,14 @@ link {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: #000000;
     /* border-radius: 0rem 0rem 0rem 2.5rem; */
     border-bottom-left-radius: 1rem;
     padding: 1rem;
 }
 
 .navigation .link {
-    color: white;
+    color: #000000;
 }
 
 .navigation .nav-pills {
@@ -140,12 +140,12 @@ link {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
-    color: white;
+    color: #000000;
     border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: white;
+    color: #000000;
 }
 
 .footer ul {
@@ -164,14 +164,14 @@ turns on dark mode in website */
 @media(prefers-color-scheme: dark) {
     body {
         background-color: var(--dark-mode-primary-color);
-        color: white;
+        color: #000000;
     }
     .ow {
         background-color: var(--dark-mode-darker-grey);
-        color: white;
+        color: #000000;
     }
     .link-secondary {
-        color: white;
+        color: rgb(2, 0, 0);
         border-radius: 2.5rem;
         border: 2px solid var(--primary-color);
     }
