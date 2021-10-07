@@ -43,14 +43,14 @@ link {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 4rem;
+    border-radius: 5rem;
     color: #000000;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 4rem;
-    border: 2px solid var(--primary-color);
+    border-radius: 5rem;
+    border: 4px solid var(--primary-color);
 }
 
 
@@ -73,8 +73,8 @@ link {
     background-color: var(--primary-color);
     color: #000000;
     /* border-radius: 0rem 0rem 0rem 2.5rem; */
-    border-bottom-left-radius: 1rem;
-    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    padding: 2rem;
 }
 
 .navigation .link {
@@ -87,7 +87,7 @@ link {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .navigation .link-active {
